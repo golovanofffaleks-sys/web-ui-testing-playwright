@@ -1,0 +1,19 @@
+{
+  "credentials": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "expected": {
+    "urlPattern": "inventory.html",
+    "headerText": "Products",
+    "selectors": {
+      "shoppingCart": "[data-test=\"shopping-cart-link\"]",
+      "pageTitle": ".title"
+    }
+  },
+  "environment": {
+    "os": "Linux",
+    "hardware": "Raspberry Pi",
+    "runtime": "Node.js"
+  }
+}
